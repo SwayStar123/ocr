@@ -21,13 +21,13 @@ storage {
 impl OCR for Contract {
     #[storage(read, write)]
     fn init() {
-        storage.inputs.push(120);
-        storage.inputs.push(510);
-        storage.inputs.push(210);
+        storage.inputs.push(100);
+        storage.inputs.push(200);
+        storage.inputs.push(300);
 
-        storage.weights.push(310);
-        storage.weights.push(210);
-        storage.weights.push(870);
+        storage.weights.push(020);
+        storage.weights.push(080);
+        storage.weights.push(050);
     }
 
     #[storage(read)]
