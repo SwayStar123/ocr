@@ -38,5 +38,5 @@ async fn can_get_output() {
     let res = instance.output().call().await.unwrap().value;
     println!("{}", res);
 
-    assert_eq!(res, 1);
+    assert_eq!(res, 34);
 }
